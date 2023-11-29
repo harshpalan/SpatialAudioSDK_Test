@@ -484,7 +484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 903169304580943070, guid: 692b6a2491e95864faf722fa67e0f0e1, type: 3}
       propertyPath: m_text
-      value: Volumetric Source
+      value: Scene 1
       objectReference: {fileID: 0}
     - target: {fileID: 903169305725960883, guid: 692b6a2491e95864faf722fa67e0f0e1, type: 3}
       propertyPath: m_AnchorMax.y
@@ -536,10 +536,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 903169306457168379, guid: 692b6a2491e95864faf722fa67e0f0e1, type: 3}
       propertyPath: m_text
-      value: Move around the scene with your controller joysticks and look around
-        by turning your head. Note that the sound from the helicopter does not appear
-        to come from a small point in space, but rather a larger volume encompassing
-        the helicopter model.
+      value: 'Move around the scene with your controller joysticks and look around
+        by turning your head. Let the researcher know if you find anything interesting. '
       objectReference: {fileID: 0}
     - target: {fileID: 903169306556553784, guid: 692b6a2491e95864faf722fa67e0f0e1, type: 3}
       propertyPath: m_SizeDelta.y

@@ -314,19 +314,13 @@ MonoBehaviour:
   - Volumetric
   - HRTFIntensity
   SceneDescriptions:
-  - Stereo Scene<br>Listen to two people speaking with different head-related transfer
-    function (HRTF) intensities applied.
-  - 'Source Directivity<br>Listen to people standing in a hallway having a conversation
-    with directivity applied to their voices.<br> '
-  - 'Point Source<br>Listen to a guitar playing in a room, rendered as a point audio
-    source with distance attenuation.<br> '
-  - Ambisonic Source<br>Listen to the soundscape of a seaside cliff, with ambisonic
-    audio providing ambient environmental sounds.
-  - 'Room Acoustics<br>Listen to the voices of people reflecting and reverberating
-    inside a large room.<br> '
-  - 'Volumetric Source<br>Listen to a helicopter flying around a large outdoor area.<br> '
-  - HRTF Intensity<br>Listen to two people speaking with different head-related transfer
-    function (HRTF) intensities applied.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   SceneToggles:
   - {fileID: 450338174}
   - {fileID: 4845867029368980838}
@@ -579,9 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'Ambisonic
-
-        Source'
+      value: Scene 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
@@ -706,11 +698,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'Stereo
-
-        Sound
-
-'
+      value: Scene 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
@@ -861,9 +849,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'HRTF
-
-        Intensity'
+      value: Scene 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
@@ -1220,9 +1206,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'Volumetric
-
-        Source'
+      value: Scene 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
@@ -1533,9 +1517,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'Room
-
-        Acoustics'
+      value: Scene 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
@@ -1660,9 +1642,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'Point
-
-        Source'
+      value: Scene 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
@@ -1702,7 +1682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Select a scene below to experience a demonstration of each audio feature.
+  m_text: 'Select a scene below to experience audio in XR environments.
 
 '
   m_isRightToLeft: 0
@@ -2417,7 +2397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Meta XR Audio SDK
+  m_text: Audio in XR Research
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
   m_sharedMaterial: {fileID: -9221056233183343877, guid: a6446991ef31ced4190c53c206cf4b3e, type: 2}
@@ -3446,9 +3426,7 @@ PrefabInstance:
       objectReference: {fileID: 958415766096299293}
     - target: {fileID: 7128090298107152077, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
       propertyPath: m_text
-      value: 'Source
-
-        Directivity'
+      value: Scene 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4956d7b254a73478918fb541169f63, type: 3}
